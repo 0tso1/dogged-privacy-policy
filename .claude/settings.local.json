@@ -8,7 +8,8 @@
       "Bash(convert:*)",
       "Bash(hugo --quiet:*)",
       "Bash(python resize_icon.py:*)",
-      "Bash(curl:*)"
+      "Bash(curl:*)",
+      "Bash(git add:*)"
     ],
     "deny": [],
     "ask": []
