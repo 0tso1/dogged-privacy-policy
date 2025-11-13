@@ -9,7 +9,8 @@
       "Bash(hugo --quiet:*)",
       "Bash(python resize_icon.py:*)",
       "Bash(curl:*)",
-      "Bash(git add:*)"
+      "Bash(git add:*)",
+      "Bash(git commit:*)"
     ],
     "deny": [],
     "ask": []
