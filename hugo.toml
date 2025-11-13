@@ -1,0 +1,24 @@
+baseURL = 'https://example.org/'
+languageCode = 'en-us'
+title = 'Raw Dog - Privacy Policy'
+theme = 'shibui'
+
+[params]
+  author = "Dogged App Team"
+  description = "Privacy Policy for Raw Dog App - Focus and endurance challenge app"
+
+[menus]
+  [[menus.main]]
+    name = 'Home'
+    pageRef = '/'
+    weight = 10
+
+  [[menus.main]]
+    name = 'Privacy Policy'
+    pageRef = '/privacy'
+    weight = 20
+
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true

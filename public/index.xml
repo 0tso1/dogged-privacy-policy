@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Raw Dog - Privacy Policy</title>
+    <link>http://localhost:58782/</link>
+    <description>Recent content on Raw Dog - Privacy Policy</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Thu, 13 Nov 2025 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:58782/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Privacy Policy</title>
+      <link>http://localhost:58782/privacy/</link>
+      <pubDate>Thu, 13 Nov 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:58782/privacy/</guid>
+      <description>&lt;h1 id=&#34;privacy-policy-for-raw-dog&#34;&gt;Privacy Policy for Raw Dog&lt;/h1&gt;&#xA;&lt;p&gt;&lt;strong&gt;Last Updated:&lt;/strong&gt; November 13, 2025&lt;/p&gt;&#xA;&lt;p&gt;&lt;strong&gt;App Name:&lt;/strong&gt; Raw Dog&#xA;&lt;strong&gt;Package Name:&lt;/strong&gt; com.rawdog.app&#xA;&lt;strong&gt;Developer:&lt;/strong&gt; Dogged App Team&lt;/p&gt;&#xA;&lt;h2 id=&#34;introduction&#34;&gt;Introduction&lt;/h2&gt;&#xA;&lt;p&gt;Welcome to Raw Dog (&amp;ldquo;Raw Dog,&amp;rdquo; &amp;ldquo;we,&amp;rdquo; &amp;ldquo;us,&amp;rdquo; or &amp;ldquo;our&amp;rdquo;). We are committed to protecting your privacy and being transparent about the data we collect and how we use it.&lt;/p&gt;&#xA;&lt;p&gt;This Privacy Policy explains what information we collect when you use our mobile application and how that information is used, stored, and protected.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>
