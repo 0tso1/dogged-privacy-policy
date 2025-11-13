@@ -2,7 +2,13 @@
   "permissions": {
     "allow": [
       "Bash(git submodule:*)",
-      "Bash(hugo server:*)"
+      "Bash(hugo server:*)",
+      "Bash(mkdir:*)",
+      "Bash(magick:*)",
+      "Bash(convert:*)",
+      "Bash(hugo --quiet:*)",
+      "Bash(python resize_icon.py:*)",
+      "Bash(curl:*)"
     ],
     "deny": [],
     "ask": []

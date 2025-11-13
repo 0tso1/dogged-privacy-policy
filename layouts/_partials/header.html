@@ -1,0 +1,27 @@
+<header>
+  <nav class="path-nav">
+    <ol>
+      {{ template "breadcrumbnav" (dict "p1" . "p2" .) }}
+    </ol>
+  </nav>
+</header>
+
+{{ define "breadcrumbnav" }}
+  {{ if .p1.Parent }}
+    {{ template "breadcrumbnav" (dict "p1" .p1.Parent "p2" .p2 ) }}
+  {{ else if not .p1.IsHome }}
+    {{ template "breadcrumbnav" (dict "p1" .p1.Site.Home "p2" .p2 ) }}
+  {{ end }}
+  <li{{ if eq .p1 .p2 }} class="current"{{ end }}>
+    {{ if .p1.IsHome }}/{{ end }}
+    {{ if .p1.IsHome }}
+      <a href="{{ .p1.RelPermalink }}" class="site-title-link">
+        <img src="/images/app-icon.png" alt="Dogged App Icon" class="header-icon">
+        <span>{{ .p1.Site.Title }}</span>
+      </a>
+    {{ else }}
+      <a href="{{ .p1.RelPermalink }}">{{ .p1.Title }}</a>
+    {{ end }}
+    {{ if ne .p1 .p2 }}/{{ end }}
+  </li>
+{{ end }}

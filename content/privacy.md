@@ -121,9 +121,11 @@ To exercise these rights, please contact us at the email address provided below.
 
 ## Children's Privacy
 
-Dogged is not directed to children under the age of 13. We do not knowingly collect personal information from children under 13. If we discover that we have collected information from a child under 13, we will delete it immediately.
+Dogged is intended for users aged 13 and older. We do not knowingly collect personal information from children under 13 years of age without parental consent.
 
-If you are a parent or guardian and believe your child has provided us with personal information, please contact us immediately.
+If you are under 13 years old, please do not use this app or provide any personal information without your parent or guardian's permission.
+
+If you are a parent or guardian and believe your child under 13 has provided us with personal information without your consent, please contact us immediately and we will take steps to remove that information from our systems.
 
 ## Changes to This Privacy Policy
 

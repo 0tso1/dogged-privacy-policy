@@ -1,1 +1,162 @@
-/* You can add custom style here */
+/* Custom CSS to match Dogged app theme colors */
+/* App colors from theme.ts:
+   background: '#fff6e8ff' (Light sandy background)
+   text: '#3b0014' (Dark red)
+   active: '#000000' (Black)
+*/
+
+:root {
+  /* Override Shibui theme colors with Dogged app colors */
+  --bg-h: 36;        /* Hue for sandy/warm tone */
+  --bg-s: 100%;      /* Full saturation for warmth */
+  --bg-l: 95%;       /* Very light for #fff6e8 */
+
+  /* Custom color overrides */
+  --color-bg-primary: #fff6e8;
+  --color-bg-secondary: #f5ede0;
+  --color-border: #e8d9c5;
+  --color-selection-bg: #d4c5b9;
+
+  /* Text colors to match app */
+  --color-text-primary: #3b0014;    /* Dark red from app */
+  --color-text-muted: #8b4560;      /* Lighter red for muted text */
+  --color-text-code: #3b0014;
+
+  /* Links and accents */
+  --color-link: #3b0014;
+  --color-link-hover: #000000;
+}
+
+/* Header customization with app icon */
+header {
+  background-color: var(--color-bg-primary);
+  border-bottom: 2px solid var(--color-text-primary);
+}
+
+header .path-nav {
+  padding: 1rem 0;
+}
+
+header .site-title-link {
+  display: inline-flex !important;
+  align-items: center !important;
+  gap: 0.5rem !important;
+  font-weight: 900;
+  letter-spacing: -0.02em;
+  color: var(--color-text-primary);
+  text-decoration: none !important;
+}
+
+header .site-title-link:hover {
+  text-decoration: none !important;
+}
+
+header .header-icon {
+  width: 28px !important;
+  height: 28px !important;
+  max-width: 28px !important;
+  max-height: 28px !important;
+  min-width: 28px !important;
+  min-height: 28px !important;
+  border-radius: 4px !important;
+  border: none !important;
+  padding: 0 !important;
+  margin: 0 !important;
+  display: block !important;
+  flex-shrink: 0 !important;
+}
+
+/* Override theme's default img styles for header icon */
+img.header-icon {
+  border: none !important;
+  padding: 0 !important;
+  margin: 0 !important;
+}
+
+header .site-title-link span {
+  display: inline-block !important;
+  vertical-align: middle !important;
+  line-height: 28px !important;
+}
+
+/* Make headings bolder to match brutalist app design */
+h1, h2, h3, h4, h5, h6 {
+  font-weight: 900;
+  color: var(--color-text-primary);
+  letter-spacing: -0.02em;
+}
+
+/* Stronger borders */
+hr {
+  border-color: var(--color-text-primary);
+  border-width: 2px;
+}
+
+/* Code blocks with app colors */
+code {
+  background-color: var(--color-bg-secondary);
+  color: var(--color-text-primary);
+  border: 1px solid var(--color-border);
+}
+
+pre {
+  background-color: var(--color-bg-secondary);
+  border: 2px solid var(--color-text-primary);
+}
+
+/* Blockquotes */
+blockquote {
+  border-left: 4px solid var(--color-text-primary);
+  background-color: var(--color-bg-secondary);
+  color: var(--color-text-primary);
+}
+
+/* Links */
+a {
+  color: var(--color-text-primary);
+  text-decoration: underline;
+  text-decoration-thickness: 2px;
+  text-underline-offset: 2px;
+}
+
+a:hover {
+  color: var(--color-link-hover);
+  text-decoration-thickness: 3px;
+}
+
+/* Navigation */
+nav a {
+  color: var(--color-text-primary);
+  font-weight: 700;
+}
+
+/* Make the overall design feel more brutalist like the app */
+body {
+  background-color: var(--color-bg-primary);
+  color: var(--color-text-primary);
+}
+
+/* Strong emphasis */
+strong {
+  font-weight: 900;
+  color: var(--color-text-primary);
+}
+
+/* Lists */
+ul, ol {
+  color: var(--color-text-primary);
+}
+
+/* Tables */
+table {
+  border: 2px solid var(--color-text-primary);
+}
+
+th, td {
+  border: 1px solid var(--color-border);
+}
+
+th {
+  background-color: var(--color-bg-secondary);
+  font-weight: 900;
+}

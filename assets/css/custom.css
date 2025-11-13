@@ -33,20 +33,50 @@ header {
   border-bottom: 2px solid var(--color-text-primary);
 }
 
-header .site-title {
-  display: flex;
-  align-items: center;
-  gap: 1rem;
+header .path-nav {
+  padding: 1rem 0;
+}
+
+header .site-title-link {
+  display: inline-flex !important;
+  align-items: center !important;
+  gap: 0.5rem !important;
   font-weight: 900;
   letter-spacing: -0.02em;
   color: var(--color-text-primary);
+  text-decoration: none !important;
 }
 
-header .site-title img {
-  width: 48px;
-  height: 48px;
-  border-radius: 10px;
-  border: 2px solid var(--color-text-primary);
+header .site-title-link:hover {
+  text-decoration: none !important;
+}
+
+header .header-icon {
+  width: 28px !important;
+  height: 28px !important;
+  max-width: 28px !important;
+  max-height: 28px !important;
+  min-width: 28px !important;
+  min-height: 28px !important;
+  border-radius: 4px !important;
+  border: none !important;
+  padding: 0 !important;
+  margin: 0 !important;
+  display: block !important;
+  flex-shrink: 0 !important;
+}
+
+/* Override theme's default img styles for header icon */
+img.header-icon {
+  border: none !important;
+  padding: 0 !important;
+  margin: 0 !important;
+}
+
+header .site-title-link span {
+  display: inline-block !important;
+  vertical-align: middle !important;
+  line-height: 28px !important;
 }
 
 /* Make headings bolder to match brutalist app design */
