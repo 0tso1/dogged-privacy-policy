@@ -3,17 +3,17 @@ title = 'Privacy Policy'
 date = 2025-11-13
 +++
 
-# Privacy Policy for Raw Dog
+# Privacy Policy for Dogged: Raw Dogging Practise
 
 **Last Updated:** November 13, 2025
 
-**App Name:** Raw Dog
+**App Name:** Dogged: Raw Dogging Practise
 **Package Name:** com.rawdog.app
 **Developer:** Dogged App Team
 
 ## Introduction
 
-Welcome to Raw Dog ("Raw Dog," "we," "us," or "our"). We are committed to protecting your privacy and being transparent about the data we collect and how we use it.
+Welcome to Dogged: Raw Dogging Practise ("Dogged," "we," "us," or "our"). We are committed to protecting your privacy and being transparent about the data we collect and how we use it.
 
 This Privacy Policy explains what information we collect when you use our mobile application and how that information is used, stored, and protected.
 
@@ -21,7 +21,7 @@ This Privacy Policy explains what information we collect when you use our mobile
 
 ### Data We Collect and Store Online
 
-When you use Raw Dog, we collect and store the following information in our online database (powered by Cloudflare D1 SQL database via Cloudflare Workers):
+When you use Dogged, we collect and store the following information in our online database (powered by Cloudflare D1 SQL database via Cloudflare Workers):
 
 - **Username**: Your chosen username when you first open the app. This is used to identify you on the global leaderboard.
 - **Score**: Your score achieved in the app sessions, used for leaderboard rankings.
@@ -115,13 +115,13 @@ To exercise these rights, please contact us at the email address provided below.
 
 ### How to Control Your Data
 
-- **Camera Access**: Manage in your device's Settings > Apps > Raw Dog > Permissions
+- **Camera Access**: Manage in your device's Settings > Apps > Dogged > Permissions
 - **Local Data**: Clear by uninstalling the app (this removes locally stored username and device ID)
 - **Server Data**: Contact us to request deletion from the leaderboard database
 
 ## Children's Privacy
 
-Raw Dog is not directed to children under the age of 13. We do not knowingly collect personal information from children under 13. If we discover that we have collected information from a child under 13, we will delete it immediately.
+Dogged is not directed to children under the age of 13. We do not knowingly collect personal information from children under 13. If we discover that we have collected information from a child under 13, we will delete it immediately.
 
 If you are a parent or guardian and believe your child has provided us with personal information, please contact us immediately.
 
@@ -133,7 +133,7 @@ We encourage you to review this policy periodically. Your continued use of the a
 
 ## International Users
 
-By using Raw Dog, you consent to the transfer and processing of your data in accordance with this Privacy Policy, regardless of your country of residence. The data is stored on Cloudflare's global network, which may involve transfer to countries outside your own.
+By using Dogged, you consent to the transfer and processing of your data in accordance with this Privacy Policy, regardless of your country of residence. The data is stored on Cloudflare's global network, which may involve transfer to countries outside your own.
 
 Cloudflare maintains compliance with international data protection regulations including GDPR and CCPA.
 

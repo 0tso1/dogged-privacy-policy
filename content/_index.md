@@ -1,15 +1,13 @@
 +++
-title = 'Raw Dog - Privacy Policy'
+title = 'Dogged: Raw Dogging Practise - Privacy Policy'
 date = 2025-11-13
 +++
 
-<img src="/images/app-icon.png" alt="Raw Dog App Icon" width="120" style="display: block; margin: 0 auto 2rem auto; border-radius: 20px;">
-
-# Raw Dog
+# Dogged: Raw Dogging Practise
 
 ## The Ultimate Focus Challenge
 
-**Raw Dog** is a focus and endurance app that challenges you to maintain eye contact with your screen to increase your score. Test your raw dogging skills and compete with others on the global leaderboard!
+**Dogged: Raw Dogging Practise** is a focus and endurance app that challenges you to maintain eye contact with your screen to increase your score. Test your raw dogging skills and compete with others on the global leaderboard!
 
 ## How It Works
 

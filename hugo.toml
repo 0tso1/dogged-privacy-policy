@@ -1,11 +1,11 @@
 baseURL = 'https://example.org/'
 languageCode = 'en-us'
-title = 'Raw Dog - Privacy Policy'
+title = 'Dogged: Raw Dogging Practise - Privacy Policy'
 theme = 'shibui'
 
 [params]
   author = "Dogged App Team"
-  description = "Privacy Policy for Raw Dog App - Focus and endurance challenge app"
+  description = "Privacy Policy for Dogged: Raw Dogging Practise - Focus and endurance challenge app"
 
 [menus]
   [[menus.main]]
