@@ -49,17 +49,32 @@ The app requests camera permission with the following message:
 
 Camera access is used **exclusively** for local face detection. No camera data is transmitted or stored remotely.
 
-### Data We Do NOT Collect
+### Advertising Data (AdMob)
 
-We do not collect:
+This app displays advertisements through Google AdMob. AdMob may collect and use certain information for advertising purposes:
+
+- **Advertising ID**: A unique, user-resettable identifier for advertising
+- **IP Address**: Used for approximate location targeting and fraud prevention
+- **App Interactions**: Information about your interactions with ads
+- **Device Information**: Device type, OS version, and other technical information
+
+**You can control ad personalization:**
+- Android: Settings > Google > Ads > Opt out of Ads Personalization
+- iOS: Settings > Privacy > Advertising > Limit Ad Tracking
+
+For more information about AdMob's data collection, see [Google's Privacy Policy](https://policies.google.com/privacy) and [AdMob's Privacy Information](https://support.google.com/admob/answer/6128543).
+
+### Data We Do NOT Collect Directly
+
+We do not directly collect:
 - Personal identification information (email, phone number, real name, address)
-- Payment information (the app is free)
-- Location data or GPS coordinates
+- Payment information
+- Precise location data or GPS coordinates
 - Contacts, photos, or other media from your device
-- Device information beyond the device ID (no hardware specs, model, etc.)
-- Usage analytics or tracking data
 - Any biometric data, facial images, or camera footage
-- Browsing history or other app usage
+- Browsing history outside the app
+
+**Note:** Third-party advertising partners (AdMob) may collect additional data as described in their privacy policies.
 
 ## How We Use Your Information
 
@@ -93,14 +108,24 @@ We use the collected information solely for the following purposes:
 
 ## Data Sharing and Third Parties
 
-We do **not** sell, trade, or share your personal information with third parties, except:
+We do **not** sell your personal information. However, we work with the following third-party service providers:
 
 - **Cloudflare**: Acts as our infrastructure provider for:
   - Database hosting (Cloudflare D1)
   - API hosting (Cloudflare Workers)
   - Network security and DDoS protection
-- **Google (ML Kit)**: Face detection runs entirely on-device using Google's ML Kit framework. No data is sent to Google servers during face detection.
+
+- **Google AdMob**: Provides advertising services. AdMob may:
+  - Collect advertising identifiers and device information
+  - Use cookies and similar technologies
+  - Share data with advertising partners for personalized ads
+  - See [Google's Privacy Policy](https://policies.google.com/privacy) for details
+
+- **Google (ML Kit)**: Face detection runs entirely on-device using Google's ML Kit framework. No facial data is sent to Google servers during face detection.
+
 - **Legal Requirements**: We may disclose information if required by law, court order, or to protect our legal rights
+
+**Advertising Partners**: AdMob works with various advertising networks and exchanges. These partners may collect and use data according to their own privacy policies. You can opt out of personalized advertising through your device settings.
 
 ## Your Rights and Choices
 
@@ -157,10 +182,11 @@ The app uses the following third-party services and libraries:
 - **Expo (~54.0.20)** - Development and build platform
 - **React Native Vision Camera (^4.7.2)** - Camera interface
 - **React Native Vision Camera Face Detector (^1.9.1)** - Face detection using ML Kit
+- **Google Mobile Ads SDK (AdMob)** - Advertising platform
 - **AsyncStorage (^2.2.0)** - Local data storage
 - **Cloudflare D1 & Workers** - Backend database and API
 
-All face detection processing happens on-device. No data from these libraries is sent to third parties except as described in this policy.
+All face detection processing happens on-device. Advertising data is collected by AdMob as described in this policy.
 
 ## Contact Us
 
@@ -181,24 +207,36 @@ We will respond to all privacy requests within 30 days.
 - Scores and timestamps
 - Device ID (for username uniqueness)
 
+**What AdMob (our ad partner) may collect:**
+- Advertising ID
+- IP address (approximate location)
+- Device information
+- Ad interaction data
+
 **What we DON'T collect or store:**
 - Facial recognition data (processed locally only, never transmitted)
 - Personal details (email, phone, real name)
-- Location data
+- Precise location data
 - Camera images or video
-- Usage analytics
-- Device information beyond device ID
+- Your personal browsing history
 
 **How we use it:**
 - Display your username and score on the global leaderboard
 - Prevent duplicate usernames (one per device)
-- That's it!
+- Show relevant advertisements to support the free app
+
+**Advertising:**
+- This app displays ads through Google AdMob
+- Ads help keep the app free
+- You can opt out of personalized ads in your device settings
+- We respect "Do Not Track" and COPPA requirements
 
 **Your privacy matters to us:**
 - All face detection happens on your device and stays on your device
 - No biometric data leaves your phone
 - Camera is used only for local head pose detection
 - You can request data deletion at any time
+- Ad-free version available (coming soon)
 
 **Platform:** Available on Android (minSDK 26+)
 **Package:** com.rawdog.app
