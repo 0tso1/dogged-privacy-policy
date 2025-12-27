@@ -51,7 +51,7 @@ Camera access is used **exclusively** for local face detection. No camera data i
 
 ### Advertising Data (AdMob)
 
-This app displays advertisements through Google AdMob. AdMob may collect and use certain information for advertising purposes:
+This app displays banner and interstitial advertisements through Google AdMob. AdMob may collect and use certain information for advertising purposes:
 
 - **Advertising ID**: A unique, user-resettable identifier for advertising
 - **IP Address**: Used for approximate location targeting and fraud prevention
@@ -226,7 +226,7 @@ We will respond to all privacy requests within 30 days.
 - Show relevant advertisements to support the free app
 
 **Advertising:**
-- This app displays ads through Google AdMob
+- This app displays banner and interstitial ads through Google AdMob
 - Ads help keep the app free
 - You can opt out of personalized ads in your device settings
 - We respect "Do Not Track" and COPPA requirements

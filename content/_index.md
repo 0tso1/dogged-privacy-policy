@@ -22,7 +22,7 @@ We take your privacy seriously:
 - **All face detection happens on your device** - No images or facial data ever leave your phone
 - **Minimal data collection** - We only store your username, scores, and device ID
 - **No tracking** - We don't collect analytics, location, or personal information
-- **No ads, no third-party data sharing** - Your data is yours
+- **Ad-supported** - This app displays banner and interstitial ads through Google AdMob to keep it free
 
 For complete details about what data we collect and how we use it, please read our [Privacy Policy](/privacy).
 
@@ -32,7 +32,7 @@ For complete details about what data we collect and how we use it, please read o
 - Global leaderboard
 - Track your personal best
 - Minimalist, distraction-free interface
-- No ads, completely free
+- Free with ads (banner and interstitial)
 
 ## Download
 
