@@ -89,7 +89,6 @@ We use the collected information solely for the following purposes:
 
 ### Online Database
 - Your username, scores, device ID, and timestamps are stored in a Cloudflare D1 SQL database
-- The database is accessed via Cloudflare Workers API endpoint: `https://raw-dog-api.otso-tolonen.workers.dev`
 - Cloudflare implements industry-standard security measures to protect data
 - All data transmissions use secure HTTPS/TLS encryption
 - The database is hosted on Cloudflare's global network with built-in DDoS protection
@@ -192,9 +191,8 @@ All face detection processing happens on-device. Advertising data is collected b
 
 If you have any questions, concerns, or requests regarding this Privacy Policy or your data, please contact us at:
 
-**Email**: [Your contact email - to be added]
+**Email**: google.grant700@passinbox.com
 **App Package**: com.rawdog.app
-**Privacy Policy URL**: [This page URL]
 
 We will respond to all privacy requests within 30 days.
 
